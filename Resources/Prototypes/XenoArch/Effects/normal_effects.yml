@@ -530,6 +530,14 @@
     polymorphPrototypeName: ArtifactLizard
 
 - type: artifactEffect
+  id: EffectPolyMoth
+  targetDepth: 2
+  effectHint: artifact-effect-hint-polymorph
+  components:
+  - type: PolyOthersArtifact
+    polymorphPrototypeName: ArtifactMoth
+
+- type: artifactEffect
   id: EffectPolyLuminous
   targetDepth: 3
   effectHint: artifact-effect-hint-polymorph
